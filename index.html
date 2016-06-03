@@ -127,40 +127,13 @@ pre code {
     }
 }
 </style>
-<title>docker_install.html</title>
+<title>index.html</title>
 </head>
 <body>
-<h1>docker安装测试笔记</h1>
+<h1>Joseph&rsquo;s blog</h1>
 
-<h2>1.创建docker vm</h2>
+<h2>1. <a href="/docker1.html/">how to install docker?</a>[2016.6.3]</h2>
 
-<pre><code>docker-machine create --driver virtualbox default
-</code></pre>
-
-<h2>2.查看是否有docker虚拟机在运行</h2>
-
-<pre><code>docker-machine start default
-docker-machine ls
-</code></pre>
-
-<h2>3.查看vm的环境参数</h2>
-
-<pre><code>docker-machine env default
-</code></pre>
-
-<h2>4.连接到vm</h2>
-
-<pre><code>eval "$(docker-machine env default)"
-</code></pre>
-
-<h2>5.测试hello word</h2>
-
-<pre><code>docker run hello-world
-</code></pre>
-
-<h2>6.docker帮助</h2>
-
-<pre><code>docker -h
-</code></pre>
+<div class="text" style=" text-align:center;">Powered by Joseph</div>
 </body>
 </html>
